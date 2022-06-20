@@ -1,7 +1,7 @@
 import cv2
 import pytesseract
 # read image
-im = cv2.imread('./testimg.jpg')
+im = cv2.imread(r'input image')
 # configurations
 config = ('-l eng --oem 1 --psm 3')
 # pytesseract
